@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: lightgray;
+}
+
+.principal{
+    width: 100%;
+}
+
+.cabecalho-principal{
+    background-image: url(../imagens/bg-3.jpg);
+    background-attachment: scroll;
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: solid 0.1px transparent;
+    height: 500px;
+    color: white;
+}
+
+.menu-principal{
+    text-align: right;
+    margin: 20px 30px 0 0;
+}
+
+.menu-principal li{
+    list-style-type: none;
+    float: left;
+    border-radius: 1px;
+    margin-left: 10px;
+}
+
+.menu-principal a{
+    border: solid 1px white;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.chamada{
+    width: 70%;
+    margin: 150px auto;
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 65px;
+    text-shadow: 1px 1px gray;
+}
+
+.conteudo-curso{
+    width: 250px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: solid 2px white;
+    margin: auto;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.secao{
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 15px;
+    overflow: auto;
+
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.texto-cards{
+    margin: 0px;
+    padding: 5px;
+    background-color: #4b4b4b;
+    color: white;
+    text-transform: uppercase;
+}
+
+.cabecalho-artigo{
+    background-color: #EBEBEB;
+    padding: 7px;
+    border-bottom: solid 2px #C0BFBF;
+}
+
+.cabecalho-artigo h2{
+    margin: 0px;
+}
+
+footer{
+    background-color: dimgray;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    text-shadow: 1px 1px black;
+}
+
